@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" ></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="title">
+            <h1>
+                Tic Tac Toe
+            </h1>
+        </div>
+        <div class="players">
+            <label for="player-1">Player 1:</label>
+            <input type="text" id="player-1" class="player-1" placeholder="Enter Your Name...">
+            <label for="player-2">Player 2:</label>
+            <input type="text" id="player-2" class="player-2" placeholder="Enter Your Name...">
+            <button class="submit-names-btn">submit</button>
+        </div>
+        <div class="gameboard"></div>
+        <div class="turn-display"></div>
+        <div class="restart">
+            <button class="restart-btn">Restart</button>
+        </div>
+        <script src="script.js" ></script>
+
+    </div>
 </body>
 </html>
